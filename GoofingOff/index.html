@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goofing Off</title>
+    <link rel="shortcut icon" href="./images/robot.ico">
+</head>
+<body>
+<!--    <button id="btn">快点喔</button>-->
+<!--    <img id="image" src="" alt="">-->
+<!--    <video controls src="./video/FunnyVideos.mp4"></video>-->
+
+<a href="javascript:var videoWidth='0';var videoName = 'FunnyVideos';const script = document.createElement('script');script.src = './main.js';document.body.appendChild(script)">Funny Videos</a>
+<script type="application/javascript">
+        var videoWidth = 0
+        var videoName = 'FunnyVideos'
+        document.querySelector('#btn').addEventListener('click',()=>{
+            const script = document.createElement('script')
+            script.src = './main.js'
+            document.body.appendChild(script)
+        },false)
+</script>
+</body>
+</html>
